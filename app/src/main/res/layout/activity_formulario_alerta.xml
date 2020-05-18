@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/activity_formulario_alerta_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/nome"
+            android:inputType="textCapWords"
+            android:importantForAutofill="no"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/addBtn"
+            android:text="Adicionar localização"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="addItems"/>
+
+</LinearLayout>
